@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Which of the following is not a valid TypeScript type?",
+        "answers": [
+            "string",
+            "int",
+            "number",
+            "boolean",
+            "any",
+            "void"
+        ],
+        "correctAnswer": ["int", "void"],
+        "multiple": true
+    },
+    {
+        "question": "Which of the given Options API lifecycle methods CANNOT be accessed inside the setup() hook in Vue 3 Composition API?",
+        "answers": [
+            "setup",
+            "beforeMount",
+            "beforeUpdate",
+            "created"
+        ],
+        "correctAnswer": "beforeCreate",
+        "multiple": false
+    },
+    {
+        "question": "What assertion method from the \"@vue/test-utils\" library will you use to test if an element has one of the following style properties attached to it or not - \"display: none,\" \"visibility: hidden,\" \"opacity :0\"?",
+        "answers": [
+            "hasStyle",
+            "hasAttribute",
+            "isVisible",
+            "isHidden"
+        ],
+        "correctAnswer": "isVisible",
+        "multiple": false
+    },
+    {
+        "question": "Which of the directives below provide a two-way binding?",
+        "answers": [
+            "modelValue",
+            "v-bind",
+            "v-on",
+            "v-cloak"
+        ],
+        "correctAnswer": "modelValue",
+        "multiple": false
+    },
+    {
+        "question": "Which of the following directives is to used for attaching event listeners that invoke methods?",
+        "answers": [
+            "@click",
+            "v-bind",
+            "v-model",
+            "v-cloak"
+        ],
+        "correctAnswer": "@click",
+        "multiple": false
+    },
+    {
+        "question": "What is the purpose of the 'key' attribute in a v-for directive in Vue.js",
+        "answers": [
+            "To provide a unique identifier for each element in a list",
+            "To optimize list rendering",
+            "To define the order of elements",
+            "To bind data to list items"
+        ],
+        "correctAnswer": [
+            "To provide a unique identifier for each element",
+            "To define the order of elements"
+        ],
+        "multiple": true
+    },
+    {
+        "question": "What is the purpose of the 'nextTick' method in Vue.js?",
+        "answers": [
+            "To delay the execution of a function until the next DOM update cycle",
+            "To navigate to the next route in Vue Router",
+            "To proceed to the next item in a v-for loop",
+            "To update data properties in the next component update"
+        ],
+        "correctAnswer": "To delay the execution of a function until the next DOM update cycle",
+        "multiple": false
+    }
+]

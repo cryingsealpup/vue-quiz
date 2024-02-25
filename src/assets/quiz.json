@@ -53,7 +53,7 @@
             "v-model",
             "v-cloak"
         ],
-        "correctAnswer": [0],
+        "correctAnswer": [1],
         "multi": false
     },
     {

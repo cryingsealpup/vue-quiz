@@ -1,17 +1,10 @@
 <script setup>
-import { ref } from 'vue'
-
-defineProps({
-    answers: Array,
-    multi: Boolean
-})
-
-const count = ref(0)
+defineProps(['isEnabled']);
+defineEmits(['next']);
 </script>
 
 <template>
-    {{ multi }}
-    <div>
-        <v-radio :is="multi ? 'v-checkbox' : 'v-radio'" v-for="(item, id) in answers" :key="id" :value="item">  {{ item }} </v-radio>
-    </div>
+    <v-btn variant="tonal" color="indigo-darken-3" @click="$emit('next')" :disabled="isEnabled">
+        Next
+    </v-btn>
 </template>

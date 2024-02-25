@@ -11,7 +11,7 @@ const count = ref(0)
 
 <template>
     {{ multi }}
-    <div>
+    <component :is="multi ? 'div' : 'v-radio-group'">
         <component :is="multi ? 'v-checkbox' : 'v-radio'" v-for="(item, id) in answers" :key="id" :value="item" :label="item"> </component>
-    </div>
+    </component>
 </template>
